@@ -1,12 +1,14 @@
-# XMC
+---
+Module Name: XMC
+Module Guid: 99bf7f17-2122-4ae8-b331-b614ba4b06a7
+Download Help Link: {{Please enter FwLink manually}}
+Help Version: {{Please enter version of help manually (X.X.X.X) format}}
+Locale: en-US
+---
 
-PowerShell Module for Extreme Management Center.
-
-## Installation
-
-```powershell
-Install-Module XMC
-```
+# XMC Module
+## Description
+PowerShell Module for Extreme Management Center
 
 ## XMC Cmdlets
 ### [Add-XmcEndSystemToGroup](Add-XmcEndSystemToGroup.md)
