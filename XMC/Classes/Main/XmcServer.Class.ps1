@@ -15,7 +15,7 @@ class XmcServer {
     [string[]]$UrlHistory
     [array]$QueryResultHistory
     $LastError
-    $LastResult
+    [xml]$LastResult
 
     # Generate Api URL
     [String] getApiUrl([string]$queryPath) {

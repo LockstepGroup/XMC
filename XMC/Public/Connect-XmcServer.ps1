@@ -19,7 +19,6 @@ function Connect-XmcServer {
         $XmcServer.Hostname = $Hostname
         $XmcServer.Port = $Port
         $XmcServer.Credential = $Credential
-
     }
 
     PROCESS {
@@ -27,6 +26,9 @@ function Connect-XmcServer {
     }
 
     END {
+        if ($TestConnection) {
+            $global:XmcServer = $XmcServer
+        }
         return $TestConnection
     }
 }
