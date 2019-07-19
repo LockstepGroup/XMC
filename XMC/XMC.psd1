@@ -12,7 +12,7 @@
     RootModule        = 'XMC'
 
     # Version number of this module.
-    ModuleVersion     = '0.0.2'
+    ModuleVersion     = '0.0.3'
 
     # Supported PSEditions
     # CompatiblePSEditions = @()
@@ -95,19 +95,19 @@
         PSData = @{
 
             # Tags applied to this module. These help with module discovery in online galleries.
-            # Tags = @()
+            Tags         = @('xmc', 'extreme-networks', 'lockstep')
 
             # A URL to the license for this module.
-            # LicenseUri = ''
+            LicenseUri   = 'https://github.com/LockstepGroup/XMC/LICENSE'
 
             # A URL to the main website for this project.
-            ProjectUri = 'https://github.com/LockstepGroup/XMC'
+            ProjectUri   = 'https://github.com/LockstepGroup/XMC'
 
             # A URL to an icon representing this module.
             # IconUri = ''
 
             # ReleaseNotes of this module
-            # ReleaseNotes = 'https://github.com/LockstepGroup/XMC'
+            ReleaseNotes = 'New Cmdlet: Remove-XmcMacFromEndSystemGroup'
 
         } # End of PSData hashtable
 
@@ -120,5 +120,6 @@
     # DefaultCommandPrefix = ''
 
 }
+
 
 

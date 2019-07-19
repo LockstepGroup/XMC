@@ -32,3 +32,6 @@ Creates a new XmcEndSystemGroup object. This Cmdlet does NOT add a group to Xmc,
 ### [New-XmcServer](New-XmcServer.md)
 Creates a new XmcServer object.
 
+### [Remove-XmcMacFromEndSystemGroup](Remove-XmcMacFromEndSystemGroup.md)
+Removes a MAC address from an End System Group.
+

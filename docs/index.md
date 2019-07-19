@@ -16,3 +16,4 @@ Install-Module XMC
 * [New-XmcEndSystem](/cmdlets/New-XmcEndSystem.md)
 * [New-XmcEndSystemGroup](/cmdlets/New-XmcEndSystemGroup.md)
 * [New-XmcServer](/cmdlets/New-XmcServer.md)
+* [Remove-XmcMacFromEndSystemGroup](/cmdlets/Remove-XmcMacFromEndSystemGroup.md)
